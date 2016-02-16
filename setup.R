@@ -1,0 +1,2 @@
+require(ProjectTemplate)
+load.project()
