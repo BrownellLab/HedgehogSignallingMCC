@@ -2,11 +2,11 @@
 
 ### Introduction
 
-We use basal cell carcinoma ([GSE7553](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7553)) and medulloblastoma ([GSE37418](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37418)) samples as comparison.
+We use merkel cell carcinoma ([GSE50451](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50451)) basal cell carcinoma ([GSE7553](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7553)) and medulloblastoma ([GSE37418](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37418)) samples as comparison.
 
 See the [reports](reports) directory for the results of analysis.
 
-Note that the datasets are on separate platforms (hgu133plus2 and hgu133a2) - we keep probes in common and use ComBat to combine and then a $z$-score normalization.
+Note that the datasets are on separate platforms (hgu133plus2 and hgu133a2) - we keep probes in common and then a $z$-score normalization on individual data sets.
 
 ### Project Information
 
