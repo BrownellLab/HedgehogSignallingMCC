@@ -15,16 +15,6 @@ pdata <- data.frame(sample=samplenames,
 
 rownames(pdata) <- samplenames
 
-combined.exprs <- cbind(exprs(eset), exprs(gse.medullo.common), exprs(gse.basalcell.common), exprs(gse.sclc.common))
-
-neweset <- ExpressionSet(assayData=combined.exprs, phenoData=AnnotatedDataFrame(pdata))
-
-## SLOW!!!!
-neweset.exprs.batcheffect <- ComBat(dat=exprs(neweset), batch=pData(neweset)$batch, mod=NULL, par.prior=FALSE)
-
-neweset.batcheffect <- ExpressionSet(assayData=neweset.exprs.batcheffect, phenoData=AnnotatedDataFrame(pData(neweset)))
-
-
 ## Z-score normalization
 eset.common.exprs.zscore <- apply(exprs(eset.common), 1, function(x) (x - mean(x)) / sd(x))
 gse.basalcell.common.exprs.zscore <- apply(exprs(gse.basalcell.common), 1, function(x) (x - mean(x)) / sd(x))
