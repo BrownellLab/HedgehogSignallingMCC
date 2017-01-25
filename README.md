@@ -1,5 +1,9 @@
 ## Exploration of Hedgehog signaling in MCC samples
 
+### Publications
+
+Carroll, T. M. et al. **Hedgehog signaling inhibitors fail to reduce Merkel cell carcinoma viability.** *Journal of Investigative Dermatology* [doi:10.1016/j.jid.2017.01.008](http://dx.doi.org/10.1016/j.jid.2017.01.008)
+
 ### Introduction
 
 We use merkel cell carcinoma ([GSE50451](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50451)) basal cell carcinoma ([GSE7553](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE7553)) and medulloblastoma ([GSE37418](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37418)) samples as comparison.
